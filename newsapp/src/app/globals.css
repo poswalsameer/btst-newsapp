@@ -17,13 +17,16 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+    /* background: url('../../public/bg.jpg'); */
+    background: linear-gradient(to right ,#023047, #0d405a, #19516d);
+    
 }
 
 @layer utilities {

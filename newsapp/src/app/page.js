@@ -43,13 +43,13 @@ export default function Home() {
   return (
     <>
 
-      <h1 className="text-4xl font-extrabold text-white text-center my-20">NEWS APP</h1>
+      <h1 className="text-7xl text-[#06d6a0] font-extrabold text-center my-10">DAILY <span className="text-blue-300">PULSE</span></h1>
 
       <div className="grid grid-cols-3 place-items-center items-center ">
 
         {blogArr.map( (blog) => (
 
-          <BlogCard key={blog.url} image={blog.urlToImage} title={blog.title} description={blog.description} author={blog.author} publishDate={blog.publishedAt} />
+          <BlogCard key={blog.url} blogUrl={blog.url ? blog.url : "/" } image={blog.urlToImage ? blog.urlToImage : "noImg.jpg" } title={blog.title ? blog.title : "No Title" } description={blog.description ? blog.description : "No description available" } author={blog.author ? blog.author : "Unknown author" } publishDate={blog.publishedAt ? blog.publishedAt : "Date unavailable" } />
 
         ) )}
 
