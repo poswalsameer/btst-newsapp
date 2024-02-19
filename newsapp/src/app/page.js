@@ -42,17 +42,17 @@ export default function Home() {
   return (
     <>
 
-      <h1 className="text-6xl text-blue-900 font-extrabold text-center my-10
+      <h1 className="text-6xl text-[#ffffe4] drop-shadow-[0_1.2px_1.2px_rgba(92,38,124,20)] font-extrabold text-center my-10
       
-      sm:text-6xl sm:text-blue-900 sm:font-extrabold sm:text-center sm:my-10
+      sm:text-6xl sm:text-[#ffffe4] sm:drop-shadow-[0_1.2px_1.2px_rgba(92,38,124,20)] sm:font-extrabold sm:text-center sm:my-10
       
-      md:text-6xl md:text-blue-900 md:font-extrabold md:text-center md:my-10
+      md:text-6xl md:text-[#ffffe4] md:drop-shadow-[0_1.2px_1.2px_rgba(92,38,124,20)] md:font-extrabold md:text-center md:my-10
       
-      lg:text-7xl lg:text-blue-900 lg:font-extrabold lg:text-center lg:my-10
+      lg:text-7xl lg:text-[#ffffe4] lg:drop-shadow-[0_1.2px_1.2px_rgba(92,38,124,20)] lg:font-extrabold lg:text-center lg:my-10
       
-      xl:text-8xl xl:text-blue-900 xl:font-extrabold xl:text-center xl:my-10
+      xl:text-8xl xl:text-[#ffffe4] xl:drop-shadow-[0_1.2px_1.2px_rgba(92,38,124,20)] xl:font-extrabold xl:text-center xl:my-10
       
-      2xl:text-8xl 2xl:text-[#9249D8] 2xl:drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] 2xl:font-extrabold 2xl:text-center 2xl:my-10">DAILY PULSE</h1>
+      2xl:text-8xl 2xl:text-[#ffffe4] 2xl:drop-shadow-[0_1.2px_1.2px_rgba(92,38,124,20)] 2xl:font-extrabold 2xl:text-center 2xl:my-10">DAILY PULSE</h1>
 
       <div className="grid grid-cols- place-items-center items-center
       
