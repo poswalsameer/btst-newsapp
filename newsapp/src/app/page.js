@@ -42,13 +42,25 @@ export default function Home() {
   return (
     <>
 
-      <h1 className="lg:text-8xl lg:text-[#33eebc] lg:font-extrabold lg:text-center lg:my-10
+      <h1 className="text-6xl text-blue-900 font-extrabold text-center my-10
       
-      xl:text-9xl xl:text-[#33eebc] xl:font-extrabold xl:text-center xl:my-10
+      sm:text-6xl sm:text-blue-900 sm:font-extrabold sm:text-center sm:my-10
       
-      2xl:text-9xl 2xl:text-[#33eebc] 2xl:font-extrabold 2xl:text-center 2xl:my-10">DAILY <span className="lg:text-blue-900 xl:text-blue-900 2xl:text-blue-900">PULSE</span></h1>
+      md:text-6xl md:text-blue-900 md:font-extrabold md:text-center md:my-10
+      
+      lg:text-7xl lg:text-blue-900 lg:font-extrabold lg:text-center lg:my-10
+      
+      xl:text-8xl xl:text-blue-900 xl:font-extrabold xl:text-center xl:my-10
+      
+      2xl:text-8xl 2xl:text-[#9249D8] 2xl:drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] 2xl:font-extrabold 2xl:text-center 2xl:my-10">DAILY PULSE</h1>
 
-      <div className="lg:grid lg:grid-cols-3 lg:place-items-center lg:items-center
+      <div className="grid grid-cols- place-items-center items-center
+      
+      sm:grid sm:grid-cols-2 sm:place-items-center sm:items-center
+      
+      md:grid md:grid-cols-2 md:place-items-center md:items-center
+      
+      lg:grid lg:grid-cols-3 lg:place-items-center lg:items-center
       
       xl:grid xl:grid-cols-3 xl:place-items-center xl:items-center
       

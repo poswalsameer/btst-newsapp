@@ -24,11 +24,11 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb)); */
-    background: url('../../public/bgGradient.jpg') no-repeat center center ;
+    background: url('../../public/bg3.jpg') no-repeat center center ;
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
-    /* background: linear-gradient(to right ,#023047, #0d405a, #236282); */
+    /* background: linear-gradient( 45deg ,#1C2E14, #2C4820, #3d672b); */
     
 }
 
