@@ -7,7 +7,7 @@ import BlogCard from "./components/BlogCard";
 
 export default function Home() {
 
-  let jsonData;
+  // let jsonData;
 
   const [blogArr, setBlogArr] = useState([]);
   
@@ -23,7 +23,7 @@ export default function Home() {
           console.log("error while fetching");
         }
     
-        jsonData = await blogData.json();
+        const jsonData = await blogData.json();
         // setJsonData(jsonData.articles);
         console.log(jsonData);
 
